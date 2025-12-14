@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiteOn — Proyectos</title>
+  <link rel="icon" href="/Imagenes/xing (1).png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <!-- MISMO HEADER -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="/Imagenes/xing.png" alt="Logo">
+        Site<span>On</span>
+      </div>
+
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/#servicios">Servicios</a>
+        <a href="/#contacto">Contacto</a>
+      </nav>
+
+      <a href="https://wa.me/593983192044?text=Hola,%20me%20gustar%C3%ADa%20trabajar%20contigo!" target="_blank">
+        <button class="btn-cta">Trabajemos Juntos</button>
+      </a>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="page">
+    <div class="projects-hero">
+      <p class="projects-kicker">Portafolio</p>
+      <h1>Mis Proyectos</h1>
+      <p class="projects-desc">
+        Aquí muestro trabajos reales y en progreso. Cada proyecto incluye lo que hice, tecnologías y enlaces.
+      </p>
+    </div>
+
+    <section class="projects-grid">
+      <!-- PROYECTO 1 (TU SITIO ACTUAL) -->
+      <article class="project-card">
+        <div class="project-thumb">
+          <!-- OPCIONAL: si tienes screenshot, puedes ponerlo con <img> -->
+          <!-- <img src="/Imagenes/proyecto-siteon.png" alt="Captura de SiteOn"> -->
+          <span class="project-status">En proceso</span>
+        </div>
+
+        <div class="project-body">
+          <h3>SiteOn — Portafolio</h3>
+          <p>
+            Landing page para presentar mis servicios (desarrollo web, performance y UI/UX) con diseño limpio y responsive.
+          </p>
+
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>Responsive</span>
+          </div>
+
+          <ul class="project-list">
+            <li>Secciones: servicios, contacto, CTA</li>
+            <li>Diseño moderno + buena jerarquía</li>
+            <li>Optimizada para móvil</li>
+          </ul>
+
+          <div class="project-actions">
+            <!-- CAMBIA ESTOS LINKS -->
+            <a class="btn-dark" href="#" target="_blank">Ver demo</a>
+            <a class="btn-outline" href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROYECTO 2 (placeholder) -->
+      <article class="project-card">
+        <div class="project-thumb alt">
+          <span class="project-status">Próximamente</span>
+        </div>
+
+        <div class="project-body">
+          <h3>Proyecto 2</h3>
+          <p>
+            Aquí iría tu siguiente proyecto (tienda, blog, landing para cliente, etc.).
+          </p>
+
+          <div class="project-tags">
+            <span>UI/UX</span><span>SEO</span><span>Performance</span>
+          </div>
+
+          <div class="project-actions">
+            <button class="btn-outline" disabled style="opacity:.6; cursor:not-allowed;">En construcción</button>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- MISMO FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>SiteOn</h3>
+        <p>Creando experiencias digitales excepcionales que conectan marcas con usuarios.</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/siteon.dev/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/g/18LLxjL61M/"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li>Desarrollo Web</li>
+            <li>Apps Móviles</li>
+            <li>Diseño UI/UX</li>
+            <li>Consultoría</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li>Email: elimosquera@gmail.com</li>
+            <li>Tel: +593 99 299 6330</li>
+            <li>Ubicación: Guayas, Ecuador</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 SiteOn. Todos los derechos reservados.</p>
+      <div class="footer-links">
+        <a href="/Pestañas/terminos.html">Acuerdo de Servicios Siteon</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollToTopBtn" title="Ir arriba">↑</button>
+  <script src="/scripts/Scroll.js"></script>
+</body>
+</html>
